@@ -1,388 +1,542 @@
+
 <!DOCTYPE html>
-<html lang="en">		
-	<head>	 
-		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-TN9CCSW');</script>
-		<!-- End Google Tag Manager -->
-		
-		
-		<link rel="shortcut icon" href="https://www.fasoulas.com/vas.ico" />
-		<link rel="canonical" href="https://www.fasoulas.com" />
-		<meta charset="utf-8">
-		<title>Vasileios Fasoulas- CV/Resume</title>
-		
-		<link rel="stylesheet" href="cv/style.css" />
-		
-		<!--[if IE 6]>
-            <script src="cv/js/ie6-transparency.js"></script>
-            <script>
-                DD_belatedPNG.fix('#wrap .line, #header #header-photo');
-            </script>
-            <link rel="stylesheet" href="cv/styles/ie6.css" />
-        <![endif]--> 
-        <!--[if IE 7]>
-            <link rel="stylesheet" href="cv/styles/ie7.css" />
-        <![endif]--> 
-        <!--[if IE 8]>
-            <link rel="stylesheet" href="cv/styles/ie8.css" />
-        <![endif]--> 	
-        <!--[if IE 9]>
-            <link rel="stylesheet" href="cv/styles/ie9.css" />
-        <![endif]--> 	
-		
-	</head>
-	
-	<body>	
-		<!-- Google Tag Manager (noscript) -->
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN9CCSW"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-		
-		<div id="wrap">
-		
-			<div id="header">
-		
-				<div id="header-content">					
-					
-					<h1>Vasileios Fasoulas</h1>
-					<h2>Technologist / Leader / Architect</h2>
-					<p>A technology-agnostic engineering and product leader with extensive experience building teams, scalable platforms, and digital products across enterprise, startup, and scale-up environments.</p>
-					</br>
-					<p>Has led globally distributed engineering organisations and large-scale programmes spanning 100+ people, while remaining equally comfortable operating hands-on in fast-moving product teams.</p>
-					</br>
-					<p>Brings strong architecture and delivery expertise across multiple clouds, runtimes, and paradigms including .NET, Java, Python, Go, TypeScript, AWS, GCP, Azure, micro-services, event-driven systems, mobile, and serverless architectures.</p> 
-					<br/>
-					<p>More recently focused on AI-native and agentic software development, including AI-assisted engineering workflows, autonomous agent systems, LLM orchestration, and spec-driven development approaches that accelerate delivery and improve alignment between product and engineering.</p>	
-					<br/>
-					<p>Strong believer that while technology evolves constantly, peopleware, product thinking, and execution excellence remain the foundations of successful digital products.</p>
-					<br/>
-					<p>Has worked with globally recognised brands including Microsoft, Formula 1, Aston Martin, Manchester City, Unilever, Pfizer, GSK, Shell, BP, KPMG, Mastercard, Nike, Verizon, Vodafone, BBC Worldwide, News UK, and Arrow Electronics.</p>
-					<br/>
-		
-					<div id="contact-details">						
-						<p class="contact"><span>LinkedIn: </span><a href="http://www.linkedin.com/in/fasoulas" onClick="recordOutboundLink(this, 'Outbound Links', 'linkedin.com');return false;">www.linkedin.com/in/fasoulas</a></p>
-						<!--
-						<p class="contact"><span>Mob Site:</span><a href="http://m.fasoulas.com">m.fasoulas.com</a></p>-->
-						<br>
-						<p class="contact"><span>Email: </span>
-						<script type="text/javascript" src="cv/js/email.js">
-						</script>
-						</p>
-						<p class="contact"><span>Twitter: </span><a href="http://www.twitter.com/fasoulas" onClick="recordOutboundLink(this, 'Outbound Links', 'twitter.com');return false;">@fasoulas</a></p>
-						</br>
-						<!--
-						<p class="contact"><span>Pinterest:</span><a href="http://www.pinterest.com/fasoulas/">pinterest.com/fasoulas</a></p>
-						<p class="contact"><span>Pearltrees:</span><a href="http://www.pearltrees.com/fasoulas">pearltrees.com/fasoulas</a></p>
-												<!-- <p class="contact"><span>CV:  </span><a href="pdf.php">PDF (auto generated from site)</a></p> -->
-						</br>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vasileios Fasoulas — CV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;1,9..144,440&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: #f4f3ee;
+    --paper-raised: #eeece4;
+    --ink: #1a1b1e;
+    --ink-soft: #55585c;
+    --rule: #d6d2c6;
+    --blueprint: #2b4c5c;
+    --blueprint-soft: #6d8c98;
+    --blueprint-wash: #e7edee;
+  }
 
-					</div>	
-									
-				</div><!--end header-content-->
-				
-				<div id="header-photo">				
-					<img src="cv/images/vas.jpg" width="180" height="180" alt="Vasileios Fasoulas Mugshot"/>
-					</div><!--end header-photo-->			
-			</div><!--end header-->
-			
-			<div class="line"></div>	
+  * { box-sizing: border-box; }
 
-			<div id="content">
-				<div id="interests" class="cv-section">
-				<h3>Interests</h3>
-					<ul class="square">
-					<li><a href="https://flipboard.com/@fasoulas/ai-fegcog3cy" target="_blank">AI</a></li>
-					<li><a href="https://flipboard.com/@fasoulas/cooking-a4lm0kluz" target="_blank">Cooking</a></li>
-					<li><a href="https://flipboard.com/@fasoulas/photography-c3kgh5s3z" target="_blank">Photography</a></li>	
-					</ul>
-					</br>
-			</div>
-				<div class="line"></div>
-				<div id="experience" class="cv-section">
+  html { scroll-behavior: smooth; }
 
-					<h3>Experience</h3>
-					<p>
-					</p>
-					<div class="cv-section-item">
-						<h4 class="title">Head of Engineering</h4>
-						<h4 class="meta">Meshx (November 2025 - Present)</h4>
-						<ul class="square">
-						<li>Oversee the engineering department''s daily operations and ensure alignment with the company's objectives</li>
-						<li>Develop and implement engineering strategies that enhance product development and innovation</li>
-						<li>Guide the design and execution of engineering projects, ensuring adherence to quality standards and timelines</li>  	
-						<li>Drive continuous improvement initiatives to optimize engineering workflows and productivity with emphasis on AI assisted software engineering</li>
-					</div>
-					<div class="cv-section-item">
-						<h4 class="title">Head of Engineering</h4>
-						<h4 class="meta">Heat Geek (February 2024 - September 2025)</h4>
-						<ul class="square">
-						<li>Designed and delivered an API-first, multi-tenant system architecture for partner integration</li>
-						<li>Introduced into the organisation event-driven thinking, educating the team on event storming & modelling </li>
-						<li>Oversaw the architecture of the next generation of the Heat Geek platform, an event-sourced, CQRS-based, modular platform working in tandem with The Composable Architecture (TCA) for iOS clients</li>  	
-						<li>Led AI and process automation work for integrations with 3rd party processes</li>
-						<li>Introduced engineering rigour and performance optimisation to exploratory Data Science work, so it is hardened for production</li>	
-						</div>
-					<div class="cv-section-item">
-						<h4 class="title">Chief Technology Officer</h4>
-						<h4 class="meta">Sliide (November 2021 - November 2023)</h4>
-						<ul class="square">
-						<li>Given recognised impact in the organisation transitioned swiftly from CA with no team or budget to assume accountability for the whole of engineering outputs and operations.</li>
-						<li>Responsible for teams spanning from QA and Data Engineering to Devops, Mobile Apps and Platforms</li>
-						<li>Set technology stategy to underpin all technology roadmaps and development</li>
-						<li>Partner to the Chief Product Office to marry up Product Vision and Technology Vision in core organisation products & platform-as-a-product initiatives</li>
-						<li>Managing the largest headcount of reports in the organisation (CEO excluded)</li>
-						</ul>
-						</div>
-					<div class="cv-section-item">
-						<h4 class="title">Chief Architect</h4>
-						<h4 class="meta">Sliide (February 2021 - November 2021)</h4>
-						<ul class="square">
-						<li>Give architectural leadership, design and approval for all significant projects</li>
-						<li>Guide the development team with reference architectures</li>
-						<li>Develop technology roadmaps for the organisation</li>
-						<li>Assist the engineering team with optimisations of systems and processes</li>
-						<li>Member of the senior management team and direct liaison with senior business stakeholders</li>
-						</ul>
-						</div>
-					<div class="cv-section-item">
-						<h4 class="title">Technical Director</h4>
-						<h4 class="meta">Digitas (July 2019 - February 2021)</h4>
-						<ul class="square">
-						<li>Own the technology direction of the F1 account (flagship account for the agency and beacon for best practices, engineering and processes to flow to other accounts)</li>
-						<li>Responsible for managing day-to-day development operations across onshore teams (Business Analysts, Lead Technical Architects, Lead QA Engineers etc.) and offshore teams (core engineering spanning Front end, Back end, native mobile development in iOS and Android plus Data & analytics)</li>
-						<li>Architected and delivered new websites for F2 and F3 for the new season, by combining historical cloud investment in Azure with services from F1 in AWS and GCP, and ultimately delivering two headless driven sites, powered by Next.js utilising AWS Cloudfront and Lambda at Edge</li>
-						<li>Provide technical consultancy to F1 around new areas of product and support 3rd parties and other partners to work in the F1 ecosystem by delivering solution designs spanning multiple parties and vendors</li>
-						<li>Report jointly to the Head of Technology and the Chief Product Officer, thus in a unique position to triage incoming initiatives to the program from product, tech and delivery standpoint</li>
-						<li>Line manage a team of Business Analysts</li>
-						</ul>
-						</div>
-					<div class="cv-section-item">
-						<h4 class="title">Technology Principal</h4>
-						<h4 class="meta">Idean (October 2018 - June 2019)</h4>
-						<ul class="square">
-						<li>Part of the leadership team & line manager for the engineering team (including developers, QAs, service delivery managers etc.)</li>
-						<li>Shape technology strategy and practices & responsible for driving growth in technology</li>
-						<li>Analysed product roadmap and technical architecture of two products (for Mobile Virtual Network Operators (MVNO); produced a strategy and roadmap to bring the two products together to form a white label version that could be delivered for 10s of MVNOs</li>
-						</ul>
-						</div>
-					<div class="cv-section-item">
-						<h4 class="title">Technical Director</h4>
-						<h4 class="meta">The BIO Agency (September 2017 - October 2018)</h4>
-						<ul class="square">
-						<li>Personally interviewed, recruited and led developers (front end, back end, architects & devops engineers) to form 4 agile teams to work in a replatform programme of work for a B2B online sales platform, involving ~110 people spanning BIO, the client and one other technology partner</li>
-						<li>Lead solution architect in this programme to redevelop the platform in a modern bespoke, Java, based platform using microservices and message based architecture using Kafka in Azure </li>
-						<li>The programme was run using SAFe and resulted in a new platform within 7 months</li>
-						</ul>
-						</div>	
-					<div class="cv-section-item">
-						<h4 class="title">Technical Director</h4>
-						<h4 class="meta">Possible (November 2014 - August 2017)</h4>
-						<ul class="square">
-						<li>Lead architect for the redevelopment of Manchester City Football club flagship www.mancity.com </li>
-						<li>Technology advisor for Aston Martin,oversaw the development and roll out of the new platform for www.astonmartin.com across multiple markets</li>
-						<li>Led a number of internal HSBC projects around knowledge management and staff engagement, all the way from RFP to launch</li>
-						<li>Consultant to Small Luxury Hotels for ongoing development of their web platform and responsible for the development team supporting it</li>
-						<li>Responsible for hiring and line management across Technical Architecture, Service Delivery, Quality Assurance and Business Analysis disciplines</li>
-						</ul>
-						</div>	
-					<div class="cv-section-item">
-                                                <h4 class="title">Technical Director</h4>
-                                                <h4 class="meta">Radley Yeldar  (April 2012 - October 2014)</h4>
-                                                <ul class="square">
-                                                <li>Overseeing the delivery of all digital media projects</li>
-                                                <li>Lead the development team, ensuring digital work matches briefs, specs, timings and budget</li>
-                                                <li>Sourcing and management of third party suppliers</li>
-                                                <li>Ensure collaboration of resources, processes and systems across departments (jointly with operations production & resourcing)</li>
-                                                </ul>
-                                                </div>
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
 
+  ::selection{ background:var(--blueprint); color:var(--paper); }
 
-					<div class="cv-section-item">
-						<h4 class="title">Technical Architect</h4>
-						<h4 class="meta">BBC Worldwide (April 2011 - March 2012)</h4>
-						<ul class="square">
-						<li>Technical authority for B2C web sites TopGear & BBCGoodFood (.NET & Java)</li>
-						<li>Technical architect for a digital supply chain integration project (B2B - BizTalk based)</li>
-						<li>Technical consultant for a number of existing & new systems</li>
-						<li>Technical manager for offshore delivery teams</li>
-						</ul>
-						</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Technical Director (Contract)</h4>
-						<h4 class="meta">VCCP (June 2010 - January 2011) </h4>
-						<ul class="square">
-						<li>Executive point of contact for all client side technology discussions</li>
-						<li>Managed off-shore development and all partnerships with technical third parties</li>
-						<li>Responsible for line management of developers & tech leads</li>
-						<li>Set new processes & systems in technology; introduced cloud computing (Amazon)</li>
-						</ul>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Senior Technology Lead & Solutions Architect</h4>
-						<h4 class="meta">R/GA (August 2009 - June 2010)</h4>
-						<ul class="square">
-						<li>Lead Architect for a multi-country web + mobile brand platform; led technical workshops, evaluated RFPs, collaborated with 3rd parties, presented architectures and cost models to CMO and CTO</li>
-						<li>Architected and solely built version 0.1 of a device notification platform based on JMS and push technology for mobile devices</li>
-						<li>Developed a reusable business services layer (S3 & SimpleDB based) for NikeOS cutting down project costs</li>
-						<li>Evaluated existing architecture and codebase of running projects, identified improvements for subsequent iterations as well as enhancements to build deploy and QA processes</li>
-						</ul>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Technical Architect</h4>
-						<h4 class="meta">Razorfish (January 2008 - July 2009)</h4>
-					<ul class="square">
-						<li>Run a portfolio of SharePoint projects in Healthcare, Charity & FMCG verticals</li>
-						<li> Worked on project pitches, technical discovery & planning, migrations, deployment, security testing, architecture reviews and go live for a number of public facing sites</li>
-						<li>Lead a high profile Rich Internet Application project (Silverlight) supported by a AAA accessible version; working with offices in the US and China</li>
-						<li>Developed a number of technical spikes on search, Ad Servers, Salesforce & bespoke client systems</li>
-						</ul>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Integration Consultant (Contract)</h4>
-						<h4 class="meta">London Capital Group (November 2007 - December 2007)</h4>
-						<ul class="square">
-						<li>Integrated components of a spread betting system (utilising public and private Betfair API) with Excel and Swing front ends using 3rd party commercial gateways (ActiveX-COM integration)</li>
-						<li>Reviewed the existing architecture against new business requirements; identified limitations and put forward a proposal and design for the new generation of the system.</li>
-						</ul>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Business Analyst Consultant (Contract)</h4>
-						<h4 class="meta">Morbus Consulting / Defra (January 2007 - October 2007)</h4>
-						<ul class="square">
-						<li>Developed an information strategy for the National Emergency Epidemiology Group (NEEGF) to improve epidemiological datasets and information flow</li>
-						<li>Captured user & technical requirements, developed use cases & Liaised with delivery agents (IBM and Microsoft) to assess how SharePoint technology could be used to implement the above information strategy</li> 
-						<li>Produced technical delivery plans and provided advice on technical risk levels (in a PRINCE2 working environment)</li>
-						<li>Acted as an independent technical reviewer for IS projects submitted for funding to other departments</li>
-						</ul>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Web Services / SOA Researcher (Contract)</h4>
-						<h4 class="meta">City University (April 2006 - March 2007)</h4>
-						<ul class="square">
-						<li>Developed a Java framework to map (via XML Binding) BPEL processes into object graphs for comparison of web service behavior models</li>
-						<li>Extended a graph matching algorithm (VF2) selected from scientific literature to be used for comparison of data types (defined in WSDL and XSD schemas) for services</li>
-						<li>Produced a registry API (Java & XQuery) capable of accepting UML models to query XML based databases (eXist) for web service models</li>
-						<li>Refactored significant part of the codebase of the project (e.g. a graph generator based on WSDL specifications) to produce re-usable components, cutting down development effort and costs.</li>
-						</ul>
-					</div>
-		
-					
-					<div class="cv-section-item">
-						<h4 class="title">Visiting Tutor (Rolling Contract)</h4>
-						<h4 class="meta">City University (January 2005 - January 2007)</h4>
-						<ul class="square">
-						<li>Tutor for a number of modules:  Systems Architecture, Business Organisation, Software Design, Advanced Databases, OO programming in C++, E-Commerce (PHP web app development)</li>
-						<li>Supervisor for a number of teams of students developing software systems, based on selected case studies</li>
-						<li>Coached students through all stages of software lifecycle to ensure successful project delivery</li>
-						</ul>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Software Engineer (Extended Course Placement)</h4>
-						<h4 class="meta">CERN (July 2000 - October 2001)</h4>
-						<ul class="square">
-						<li>Designed and developed a system to monitor & control particle accelerators via Excel (utilising in-house middleware technologies & commercial ActiveX-Com gateways)</li>
-						<li>Managed and extended the in-house software configuration and deployment system</li>
-						<li>Researched java scripting languages & integration options with existing systems; proposed an integration roadmap and migration procedures</li>
-						</ul>
-						</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Systems Analyst (Contract)</h4>
-						<h4 class="meta">Pylon-Engineering SA (August 1999 - September 1999)</h4>
-						<ul class="square">
-						<li>Lead requirement engineer for a small photovoltaic energy station (its control system)</li>
-						<li>Captured business requirements & system design in UML</li>
-						<li>Advised on procurement of the required data acquisition equipment</li>
-						</ul>
-					</div>
-							
-				</div>
-				<div class="line"></div>
-				<!--
-				<div id="expertise" class="cv-section">
-					<h3>Expertise</h3>
-					<div class="cv-section-item">
-						<h4 class="title">Architecture</h4>
-						<h4 class="meta">Experience Level: Advanced [5 Years]</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Web</h4>
-						<h4 class="meta">Experience Level: Advanced [5 Years]</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Cloud Computing</h4>
-						<h4 class="meta">Experience Level: Advanced [5 Years]</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Mobile</h4>
-						<h4 class="meta">Experience Level: Advanced [5 Years]</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>	
-									
-				</div>
-				-->
-				
-				<div id="education" class="cv-section">
-				
-					<h3>Education</h3>
-					
-					<div class="cv-section-item">
-						<h4 class="title">City University</h4>
-						<h4 class="meta">MSc Business Systems Analysis & Design (2003 - 2004)</h4>
-						<ul class="square">
-						<li>Graduated with Distinction</li>
-						<li>Thesis titled: Web Services Monitoring (Awarded prize for best computing project of the year)</li>
-						</ul>
-						</div>
-					
-					<div class="cv-section-item">
-						<h4 class="title">Brighton University</h4>
-						<h4 class="meta">BSc (Hons) Software Engineering (1998 - 2002)</h4>
-						<ul class="square">
-						<li>Graduated with Honors (2:1) in Software Engineering (Sandwich)</li>
-						<li>Dissertation titled "Web Services- Which is their role in Enterprises"</li>
-						</ul>
-					</div>
-				</div>
-				<!-- <div class="line"></div>-->
-				<!--
-				<div id="awards" class="cv-section">
-					<h3>Awards</h3>
-					<div class="cv-section-item">
-						<h4 class="title">Best Computing Project of the Year</h4>
-						<h4 class="meta">Awarded: October 2004</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-				</div>
-				<div class="line"></div>
-				<div id="papers" class="cv-section">
-					<h3>Papers</h3>
-					<div class="cv-section-item">
-						<h4 class="title">Adobe Certified Instructor</h4>
-						<h4 class="meta">Awarded: August 2008</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					</div>
-				</div>
-				-->
-			</div>
-		</div>
-		<div id="spacing"></div><!--hack for ie6 and ie7-->	
-	</div>
-	</body>	
+  a{ color:var(--blueprint); text-decoration-thickness:1px; text-underline-offset:3px; }
+  a:hover{ color:var(--ink); }
+  a:focus-visible, button:focus-visible{ outline:2px solid var(--blueprint); outline-offset:3px; }
+
+  .wrap{ max-width:760px; margin:0 auto; padding:0 28px; }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--blueprint);
+  }
+
+  /* ---------- Dimension-line rule: the signature device ---------- */
+  .dim-rule{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:var(--blueprint-soft);
+    margin:6px 0 0;
+  }
+  .dim-rule::before, .dim-rule::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:
+      linear-gradient(var(--blueprint-soft), var(--blueprint-soft)) left/1px 6px no-repeat,
+      linear-gradient(var(--blueprint-soft), var(--blueprint-soft)) right/1px 6px no-repeat,
+      var(--rule);
+    background-position: left top, right top, center;
+  }
+
+  /* ---------- Hero ---------- */
+  header.hero{
+    padding:88px 0 40px;
+    position:relative;
+  }
+  header.hero .name{
+    font-family:'Fraunces', serif;
+    font-weight:440;
+    font-size:clamp(40px, 7vw, 64px);
+    line-height:1.02;
+    margin:14px 0 6px;
+    letter-spacing:-0.01em;
+  }
+  header.hero .role{
+    font-family:'Fraunces', serif;
+    font-style:italic;
+    font-weight:440;
+    font-size:20px;
+    white-space:nowrap;
+    color:var(--ink-soft);
+    margin:0 0 28px;
+  }
+  header.hero .summary{
+    max-width:none;
+    font-size:16.5px;
+    color:#33353a;
+  }
+  header.hero .summary strong{
+    font-weight:600;
+    color:var(--ink);
+  }
+
+  .contact-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:18px;
+    margin-top:26px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+  }
+  .contact-row a{ color:var(--ink); border-bottom:1px solid var(--rule); padding-bottom:2px; }
+  .contact-row a:hover{ color:var(--blueprint); border-color:var(--blueprint); }
+
+  /* ---------- At-a-glance strip (dimension-line stats) ---------- */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:0;
+    margin-top:46px;
+    border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+  }
+  .stat{
+    padding:20px 16px 18px;
+    border-left:1px solid var(--rule);
+  }
+  .stat:first-child{ border-left:none; padding-left:0; }
+  .stat .num{
+    font-family:'Fraunces', serif;
+    font-weight:440;
+    font-size:30px;
+    color:var(--blueprint);
+    display:block;
+  }
+  .stat .label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    display:block;
+    margin-top:4px;
+  }
+
+  @media (max-width: 620px){
+    .stats{ grid-template-columns:repeat(2, 1fr); }
+    .stat:nth-child(3){ border-left:none; padding-left:0; }
+  }
+
+  /* ---------- Section scaffolding ---------- */
+  section{ padding:56px 0 8px; }
+  section > .section-head{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    margin-bottom:30px;
+  }
+  section > .section-head h2{
+    font-family:'Fraunces', serif;
+    font-weight:440;
+    font-size:26px;
+    margin:0;
+  }
+  section > .section-head .tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--blueprint-soft);
+    text-transform:uppercase;
+    letter-spacing:.08em;
+  }
+
+  /* ---------- Experience: featured roles ---------- */
+  .role-entry{
+    display:grid;
+    grid-template-columns:150px 1fr;
+    gap:24px;
+    padding:26px 0;
+    border-top:1px solid var(--rule);
+  }
+  .role-entry:first-of-type{ border-top:1px solid var(--rule); }
+
+  .role-entry .when{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    padding-top:4px;
+  }
+  .role-entry .when .current{
+    display:inline-block;
+    margin-top:8px;
+    font-size:10px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--blueprint);
+    border:1px solid var(--blueprint-soft);
+    border-radius:2px;
+    padding:2px 6px;
+  }
+
+  .role-entry .title{
+    font-family:'Fraunces', serif;
+    font-weight:560;
+    font-size:19px;
+    margin:0 0 2px;
+  }
+  .role-entry .org{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0 0 14px;
+  }
+  .role-entry ul{
+    margin:0;
+    padding-left:18px;
+  }
+  .role-entry li{
+    margin-bottom:8px;
+    color:#2c2e32;
+    font-size:14.5px;
+  }
+  .role-entry li::marker{ color:var(--blueprint-soft); }
+
+  @media (max-width: 620px){
+    .role-entry{ grid-template-columns:1fr; gap:8px; }
+  }
+
+  /* ---------- Earlier career: condensed drafting-table rows ---------- */
+  .earlier-toggle{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:.04em;
+    color:var(--blueprint);
+    background:none;
+    border:1px solid var(--blueprint-soft);
+    border-radius:2px;
+    padding:9px 14px;
+    cursor:pointer;
+    margin-top:20px;
+  }
+  .earlier-toggle:hover{ background:var(--blueprint-wash); }
+
+  .earlier-list{
+    display:none;
+    margin-top:8px;
+  }
+  .earlier-list.open{ display:block; }
+
+  .earlier-row{
+    display:grid;
+    grid-template-columns:110px 1fr auto;
+    gap:16px;
+    align-items:baseline;
+    padding:13px 0;
+    border-top:1px solid var(--rule);
+    font-size:14px;
+  }
+  .earlier-row .yrs{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;
+    color:var(--ink-soft);
+  }
+  .earlier-row .role{ color:var(--ink); font-weight:500; }
+  .earlier-row .org{ color:var(--ink-soft); text-align:right; font-size:13px; }
+
+  @media (max-width: 620px){
+    .earlier-row{ grid-template-columns:1fr; gap:2px; }
+    .earlier-row .org{ text-align:left; }
+  }
+
+  /* ---------- Skills ---------- */
+  .skills-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:22px 32px;
+  }
+  .skills-group{ padding-top:18px; border-top:1px solid var(--rule); }
+  .skills-cat{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--blueprint);
+    margin:0 0 8px;
+  }
+  .skills-items{ margin:0; font-size:14px; color:#2c2e32; line-height:1.55; }
+
+  @media (max-width: 620px){
+    .skills-grid{ grid-template-columns:1fr; }
+  }
+
+  /* ---------- Education ---------- */
+  .edu-entry{
+    padding:20px 0;
+    border-top:1px solid var(--rule);
+  }
+  .edu-entry .title{ font-family:'Fraunces', serif; font-size:17px; font-weight:560; margin:0 0 2px; }
+  .edu-entry .org{ font-size:13.5px; color:var(--ink-soft); margin:0 0 8px; }
+  .edu-entry p{ margin:0; font-size:14px; color:#2c2e32; }
+
+  /* ---------- Footer ---------- */
+  footer{
+    margin-top:70px;
+    padding:34px 0 70px;
+    border-top:1px solid var(--rule);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  footer .mark{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+  footer a{ font-family:'IBM Plex Mono', monospace; font-size:12px; }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Building the teams that build the platforms</div>
+    <h1 class="name">Vasileios Fasoulas</h1>
+    <p class="role">Product Engineering leadership for orgs that build platforms, not just features.</p>
+    <p class="summary" style="margin-top:14px;">
+      A Leader with over two decades building and operating teams, scalable platforms, and digital products across start-ups, scale-ups and enterprise environments.
+    </p>
+    <p class="summary" style="margin-top:14px;">
+      From fast-moving, hands-on product teams to globally distributed programmes of 100+ people; with architecture expertise that moves between hands-on delivery and long-range strategy, tested across multiple stacks and clouds.
+    </p>
+
+    <p class="summary" style="margin-top:14px;">
+      With recent focus on <strong>AI-native and agentic software development</strong>: AI-assisted engineering workflows, autonomous agent systems, LLM orchestration, and spec-driven approaches that tighten the loop between product and engineering.
+    </p>
+    <p class="summary" style="margin-top:14px;">
+      A consistent view across two decades of change: stacks and frameworks turn over, but peopleware, product thinking and execution discipline are what actually make digital products and orgs successful.
+    </p>
+
+    <div class="contact-row">
+      <a href="mailto:vas@fasoulas.com">Email ↗</a>
+      <a href="http://www.linkedin.com/in/fasoulas">LinkedIn ↗</a>
+      <a href="https://www.github.com/fasoulas">Github ↗</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><span class="num">20+</span><span class="label">Years in industry</span></div>
+      <div class="stat"><span class="num">250+</span><span class="label">Engineers led</span></div>
+      <div class="stat"><span class="num">40+</span><span class="label">Global brands</span></div>
+      <div class="stat"><span class="num">5</span><span class="label">Business replatforms</span></div>
+    </div>
+  </header>
+
+  <section id="experience">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <span class="tag">Reverse chronological</span>
+    </div>
+
+    <div class="role-entry">
+      <div class="when">Sept 2025 — Present<br><span class="current">Current</span></div>
+      <div>
+        <p class="title">Founder and CTO</p>
+        <p class="org">Alpha44</p>
+        <ul>
+          <li>Offering frational CTO services to agencies and startups </li> 
+        </ul>
+      </div>
+    </div>
+
+    <div class="role-entry">
+      <div class="when">Nov 2025 — May 2026<br></div>
+      <div>
+        <p class="title">Head of Engineering</p>
+        <p class="org">Meshx</p>
+        <ul>
+          <li>Own engineering's daily operations and alignment with company objectives</li>
+          <li>Set engineering strategy to enhance product development and innovation</li>
+          <li>Guide design and execution of engineering projects against quality and timeline standards</li>
+          <li>Accelerated delivery cycles using AI agents and spec-driven development, increasing sprint velocity by 200%</li>
+          <li>Championed AI agents for ChatOps, extending DevOps knowhow and capability across the organisation</li>
+          <li>Directed development of agents spanning the full software development lifecycle, from ideation to deployment</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="role-entry">
+      <div class="when">Feb 2024 — Sep 2025</div>
+      <div>
+        <p class="title">Head of Engineering</p>
+        <p class="org">Heat Geek</p>
+        <ul>
+          <li>Designed and delivered an API-first, multi-tenant architecture for partner integration</li>
+          <li>Introduced event-driven thinking to the organisation, educating the team on event storming and modelling</li>
+          <li>Oversaw architecture of the next-generation platform: event-sourced, CQRS-based, built alongside The Composable Architecture (TCA) for iOS</li>
+          <li>Led AI and process automation for third-party integrations</li>
+          <li>Brought engineering rigour to exploratory Data Science work, hardening it for production</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="role-entry">
+      <div class="when">Nov 2021 — Nov 2023</div>
+      <div>
+        <p class="title">Chief Technology Officer</p>
+        <p class="org">Sliide</p>
+        <ul>
+          <li>Transitioned from Chief Architect with no team or budget to full accountability for engineering, on the strength of recognised impact</li>
+          <li>Responsible for QA, Data Engineering, DevOps, Mobile Apps and Platforms (headcount: 72, direct reports: 5)</li>
+          <li>Set technology strategy underpinning all roadmaps and development</li>
+          <li>Partnered with the Chief Product Officer to align product vision with technology vision, including platform-as-a-product initiatives</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="role-entry">
+      <div class="when">Feb 2021 — Nov 2021</div>
+      <div>
+        <p class="title">Chief Architect</p>
+        <p class="org">Sliide</p>
+        <ul>
+          <li>Gave architectural leadership, design and approval for all significant projects</li>
+          <li>Guided the development team with reference architectures</li>
+          <li>Developed technology roadmaps for the organisation</li>
+          <li>Sat on the senior management team as direct liaison with senior business stakeholders</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="role-entry">
+      <div class="when">Jul 2019 — Feb 2021</div>
+      <div>
+        <p class="title">Technical Director</p>
+        <p class="org">Digitas — Formula 1 account</p>
+        <ul>
+          <li>Owned technology direction for the agency's flagship F1 account</li>
+          <li>Managed onshore and offshore delivery across front end, back end, native mobile and data/analytics</li>
+          <li>Combined Azure, AWS and GCP to deliver two headless F2/F3 sites on Next.js with CloudFront and Lambda@Edge</li>
+          <li>Provided technical consultancy to F1 and coordinated solution design across multiple partners and vendors</li>
+          <li>Reported jointly to the Head of Technology and Chief Product Officer, triaging initiatives across product, tech and delivery</li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="earlier-toggle" id="earlierToggle" aria-expanded="false" aria-controls="earlierList">
+      Show earlier career (1999 – 2019) ↓
+    </button>
+
+    <div class="earlier-list" id="earlierList">
+      <div class="earlier-row"><span class="yrs">2018–19</span><span class="role">Technology Principal</span><span class="org">Idean</span></div>
+      <div class="earlier-row"><span class="yrs">2017–18</span><span class="role">Technical Director</span><span class="org">The BIO Agency: Arrow Electronics</span></div>
+      <div class="earlier-row"><span class="yrs">2014–17</span><span class="role">Technical Director</span><span class="org">Possible: Manchester City, Aston Martin</span></div>
+      <div class="earlier-row"><span class="yrs">2012–14</span><span class="role">Technical Director</span><span class="org">Radley Yeldar: GSK</span></div>
+      <div class="earlier-row"><span class="yrs">2011–12</span><span class="role">Technical Architect</span><span class="org">BBC Worldwide</span></div>
+      <div class="earlier-row"><span class="yrs">2010–11</span><span class="role">Technical Director (Contract)</span><span class="org">VCCP</span></div>
+      <div class="earlier-row"><span class="yrs">2009–10</span><span class="role">Senior Technology Lead & Solutions Architect</span><span class="org">R/GA</span></div>
+      <div class="earlier-row"><span class="yrs">2008–09</span><span class="role">Technical Architect</span><span class="org">Razorfish</span></div>
+      <div class="earlier-row"><span class="yrs">2007</span><span class="role">Integration Consultant (Contract)</span><span class="org">London Capital Group</span></div>
+      <div class="earlier-row"><span class="yrs">2007</span><span class="role">Business Analyst Consultant (Contract)</span><span class="org">Morbus Consulting / Defra</span></div>
+      <div class="earlier-row"><span class="yrs">2006–07</span><span class="role">Web Services / SOA Researcher</span><span class="org">City University</span></div>
+      <div class="earlier-row"><span class="yrs">2005–07</span><span class="role">Visiting Tutor</span><span class="org">City University</span></div>
+      <div class="earlier-row"><span class="yrs">2000–01</span><span class="role">Software Engineer (Placement)</span><span class="org">CERN</span></div>
+      <div class="earlier-row"><span class="yrs">1999</span><span class="role">Systems Analyst (Contract)</span><span class="org">Pylon-Engineering SA</span></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skills-group">
+        <p class="skills-cat">Leadership &amp; Delivery</p>
+        <p class="skills-items">Engineering strategy · Technology roadmaps · Stakeholder management · Onshore/offshore delivery · Vendor/partner management</p>
+      </div>
+      <div class="skills-group">
+        <p class="skills-cat">Cloud &amp; Platforms</p>
+        <p class="skills-items">AWS · Azure · GCP · Multi-cloud strategy · Serverless · FinOps · Scaling</p>
+      </div>
+      <div class="skills-group">
+        <p class="skills-cat">AI &amp; Agentic Engineering</p>
+        <p class="skills-items">AI-assisted engineering workflows · Multi-agent orchestration · Spec-driven development · Agentic ChatOps &amp; SDLC automation</p>
+      </div>
+      <div class="skills-group">
+        <p class="skills-cat">Data &amp; Engineering Practice</p>
+        <p class="skills-items">Data Engineering · Event sourcing · DevOps · CI/CD · QA &amp; testing culture · Systems Hardening</p>
+      </div>
+      <div class="skills-group">
+        <p class="skills-cat">Architecture &amp; Patterns</p>
+        <p class="skills-items">Event-driven architecture · CQRS · Event storming · API-first · Multi-tenant design · Ref architectures</p>
+      </div>
+      <div class="skills-group">
+        <p class="skills-cat">Frontend &amp; Mobile</p>
+        <p class="skills-items">SPA · Typescript · Next.js · React Native · iOS (TCA) · Android (Jetpack Compose, MVI)</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-head">
+      <h2>Education</h2>
+    </div>
+    <div class="edu-entry">
+      <p class="title">MSc Business Systems Analysis &amp; Design</p>
+      <p class="org">City St George's University</p>
+      <p>Graduated with Distinction. Thesis: <em>Web Services Monitoring</em> — awarded best computing project of the year.</p>
+    </div>
+    <div class="edu-entry">
+      <p class="title">BSc (Hons) Software Engineering</p>
+      <p class="org">Brighton University (Sandwich)</p>
+      <p>Graduated with Honours (2:1). Dissertation: <em>Web Services — Which Is Their Role in Enterprises</em>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span class="mark">London, UK</span>
+    <div style="display:flex; gap:16px;">
+      <a href="mailto:vas@fasoulas.com">Email</a>
+      <a href="http://www.linkedin.com/in/fasoulas">LinkedIn</a>
+      <a href="http://www.github.com/fasoulas">Github</a>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+  const btn = document.getElementById('earlierToggle');
+  const list = document.getElementById('earlierList');
+  btn.addEventListener('click', () => {
+    const open = list.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+    btn.textContent = open ? 'Hide earlier career ↑' : 'Show earlier career (1999 – 2019) ↓';
+  });
+</script>
+
+</body>
 </html>
