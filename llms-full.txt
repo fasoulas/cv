@@ -1,0 +1,107 @@
+# Vasileios Fasoulas
+
+Product Engineering Leader. London, UK.
+https://fasoulas.com/
+
+> Product Engineering leadership for orgs that build platforms, not just features.
+
+A leader with over two decades building and operating teams, scalable platforms, and digital products across start-ups, scale-ups and enterprise environments.
+
+From fast-moving, hands-on product teams to globally distributed programmes of 100+ people; with architecture expertise that moves between hands-on delivery and long-range strategy, tested across multiple stacks and clouds.
+
+Recent focus on AI-native and agentic software development: AI-assisted engineering workflows, autonomous agent systems, LLM orchestration, and spec-driven approaches that tighten the loop between product and engineering.
+
+A consistent view across two decades of change: stacks and frameworks turn over, but peopleware, product thinking and execution discipline are what actually make digital products and orgs successful.
+
+- LinkedIn: https://www.linkedin.com/in/fasoulas
+- GitHub: https://github.com/fasoulas
+
+## At a glance
+
+- 20+ years in industry
+- 250+ engineers led
+- 40+ global brands
+- 5 business replatforms
+
+## Experience
+
+### New role (Sept 2026 – present)
+
+### Founder and CTO, Alpha44 (Sept 2025 – Aug 2026)
+https://www.alpha44.com
+
+- Offering fractional CTO services to agencies and startups
+
+### Head of Engineering, Meshx (Nov 2025 – May 2026)
+https://meshx.io
+
+- Own engineering's daily operations and alignment with company objectives
+- Set engineering strategy to enhance product development and innovation
+- Guide design and execution of engineering projects against quality and timeline standards
+- Accelerated delivery cycles using AI agents and spec-driven development, increasing sprint velocity by 200%
+- Championed AI agents for ChatOps, extending DevOps knowhow and capability across the organisation
+- Directed development of agents spanning the full software development lifecycle, from ideation to deployment
+
+### Head of Engineering, Heat Geek (Feb 2024 – Sep 2025)
+https://www.heatgeek.com
+
+- Designed and delivered an API-first, multi-tenant architecture for partner integration
+- Introduced event-driven thinking to the organisation, educating the team on event storming and modelling
+- Oversaw architecture of the next-generation platform: event-sourced, CQRS-based, built alongside The Composable Architecture (TCA) for iOS
+- Led AI and process automation for third-party integrations
+- Brought engineering rigour to exploratory Data Science work, hardening it for production
+
+### Chief Technology Officer, Sliide (Nov 2021 – Nov 2023)
+https://www.sliide.com
+
+- Transitioned from Chief Architect with no team or budget to full accountability for engineering, on the strength of recognised impact
+- Responsible for QA, Data Engineering, DevOps, Mobile Apps and Platforms (headcount: 72, direct reports: 5)
+- Set technology strategy underpinning all roadmaps and development
+- Partnered with the Chief Product Officer to align product vision with technology vision, including platform-as-a-product initiatives
+
+### Chief Architect, Sliide (Feb 2021 – Nov 2021)
+
+- Gave architectural leadership, design and approval for all significant projects
+- Guided the development team with reference architectures
+- Developed technology roadmaps for the organisation
+- Sat on the senior management team as direct liaison with senior business stakeholders
+
+### Technical Director, Digitas – Formula 1 account (Jul 2019 – Feb 2021)
+https://www.digitas.co.uk
+
+- Owned technology direction for the agency's flagship F1 account
+- Managed onshore and offshore delivery across front end, back end, native mobile and data/analytics
+- Combined Azure, AWS and GCP to deliver two headless F2/F3 sites on Next.js with CloudFront and Lambda@Edge
+- Provided technical consultancy to F1 and coordinated solution design across multiple partners and vendors
+- Reported jointly to the Head of Technology and Chief Product Officer, triaging initiatives across product, tech and delivery
+
+## Earlier career (1999 – 2019)
+
+- 2018–19: Technology Principal, Idean
+- 2017–18: Technical Director, The BIO Agency (Arrow Electronics)
+- 2014–17: Technical Director, Possible (Manchester City, Aston Martin)
+- 2012–14: Technical Director, Radley Yeldar (GSK)
+- 2011–12: Technical Architect, BBC Worldwide
+- 2010–11: Technical Director (Contract), VCCP
+- 2009–10: Senior Technology Lead & Solutions Architect, R/GA
+- 2008–09: Technical Architect, Razorfish
+- 2007: Integration Consultant (Contract), London Capital Group
+- 2007: Business Analyst Consultant (Contract), Morbus Consulting / Defra
+- 2006–07: Web Services / SOA Researcher, City University
+- 2005–07: Visiting Tutor, City University
+- 2000–01: Software Engineer (Placement), CERN
+- 1999: Systems Analyst (Contract), Pylon-Engineering SA
+
+## Skills
+
+- Leadership & Delivery: Engineering strategy, Technology roadmaps, Stakeholder management, Onshore/offshore delivery, Vendor/partner management
+- Cloud & Platforms: AWS, Azure, GCP, Multi-cloud strategy, Serverless, FinOps, Scaling
+- AI & Agentic Engineering: AI-assisted engineering workflows, Multi-agent orchestration, Spec-driven development, Agentic ChatOps & SDLC automation
+- Data & Engineering Practice: Data Engineering, Event sourcing, DevOps, CI/CD, QA & testing culture, Systems Hardening
+- Architecture & Patterns: Event-driven architecture, CQRS, Event storming, API-first, Multi-tenant design, Reference architectures
+- Frontend & Mobile: SPA, TypeScript, Next.js, React Native, iOS (TCA), Android (Jetpack Compose, MVI)
+
+## Education
+
+- MSc Business Systems Analysis & Design, City St George's University. Graduated with Distinction. Thesis: Web Services Monitoring, awarded best computing project of the year.
+- BSc (Hons) Software Engineering, Brighton University (Sandwich). Graduated with Honours (2:1). Dissertation: Web Services — Which Is Their Role in Enterprises.

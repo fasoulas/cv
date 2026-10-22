@@ -1,0 +1,11 @@
+# Vasileios Fasoulas
+
+> Product Engineering Leader based in London, UK. 20+ years building and operating teams, scalable platforms and digital products across start-ups, scale-ups and enterprise. Recent focus: AI-native and agentic software development.
+
+- [CV (HTML)](https://fasoulas.com/): Full CV with experience, skills and education
+- [CV (full text, markdown)](https://fasoulas.com/llms-full.txt): The same CV as plain markdown
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/fasoulas)
+- [GitHub](https://github.com/fasoulas)
