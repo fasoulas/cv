@@ -130,10 +130,20 @@
   ]
 }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;1,9..144,440&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<noscript><style>
+  /* no JS: show earlier career, hide the dead toggle */
+  .earlier-list[hidden]{ content-visibility:visible; }
+  .earlier-toggle{ display:none; }
+</style></noscript>
 <style>
+  @font-face{font-family:'Fraunces';font-style:normal;font-weight:340 560;font-display:swap;src:url(fonts/fraunces.woff2) format('woff2');}
+  @font-face{font-family:'Fraunces';font-style:italic;font-weight:440;font-display:swap;src:url(fonts/fraunces-italic.woff2) format('woff2');}
+  @font-face{font-family:'Inter';font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/inter.woff2) format('woff2');}
+  @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/plex-mono-400.woff2) format('woff2');}
+  @font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/plex-mono-500.woff2) format('woff2');}
+
   :root{
     --paper: #f4f3ee;
     --paper-raised: #eeece4;
@@ -289,7 +299,7 @@
   section > .section-head .tag{
     font-family:'IBM Plex Mono', monospace;
     font-size:11px;
-    color:var(--blueprint-soft);
+    color:var(--ink-soft);
     text-transform:uppercase;
     letter-spacing:.08em;
   }
